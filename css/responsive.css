@@ -1,0 +1,481 @@
+/*************** Iphone 4 - 5 *************/
+@media (max-width: 320px) {
+   .title{
+      margin-top: 0px !important;
+      padding-top: 20px;
+      font-weight: 100;
+      padding-bottom: 10px;
+      color: white;
+  }
+  .img-rounded {
+    border-radius: 6px;
+    height: 90px;
+}
+.iphone{
+    display: none;
+}
+.padd-bot
+{
+  padding: 10px;
+}
+body {
+    font-size: 17px;
+}
+video{
+    display: none;
+}
+#btnVideo
+{
+    display: block;
+}
+
+#videoBackground
+{
+    background-image: url(../media/videos/eficienciapp_promo.gif);
+    width: 100%;
+    background-size: 100%;
+    min-height: 190px;
+}
+#contactContainer {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+}
+
+
+@media (min-width: 321px) and (max-width: 360px) {
+    #videoBackground
+    {
+        background-image: url(../media/videos/eficienciapp_promo.gif);
+        width: 100%;
+        background-size: 100%;
+        min-height: 210px;
+    }
+    video{
+        display: none;
+    }
+    .img-rounded {
+    height: 116px;
+}
+.padd-bot {
+    padding: 10px;
+}
+.title {
+    margin-top: 0px !important;
+    padding-top: 40px;
+    font-weight: 100;
+    padding-bottom: 10px;
+    color: white;
+}
+
+#contactContainer {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #videoBackground
+    {
+        background-image: url(../media/videos/eficienciapp_promo.gif);
+        width: 100%;
+        background-size: 100%;
+        min-height: 580px;
+    }
+    video{
+        display: none;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 1024px) {
+    .page-Sign .takeOverContent {
+        padding: 35px 0 !important
+    }
+    .page-Sign h2 {
+        text-align: center !important
+    }
+    .page-Sign .socialLogin button:first-child {
+        margin-bottom: 10px
+    }
+    .page-Sign .passwordReset {
+        display: block;
+        margin: 0 !important;
+        padding-top: 20px
+    }
+    .page-Sign .actionBar {
+        text-align: center
+    }
+}
+
+@media (max-width: 767px) {
+    .page-BecomeExpert .introText .selling {
+        margin: 0px;
+        margin: 40px 0px;
+        text-align: center !important
+    }
+    .page-BecomeExpert .introText .selling h3 {
+        margin: 10px 0px
+    }
+    .page-BecomeExpert .introText .roundIcon {
+        margin: 0px auto
+    }
+    .page-BecomeExpert form {
+        margin: 0px;
+        padding: 20px !important
+    }
+}
+
+@media (max-width: 1024px) {
+    .page-Desktop #demo1,
+    .page-Desktop #demo3 {
+        display: none
+    }
+    .page-Desktop .content h2 {
+        margin-bottom: 20px
+    }
+    .page-Desktop #platforms h2 {
+        margin-bottom: 0px
+    }
+    .page-Desktop #platforms .zone {
+        margin-bottom: 10px !important
+    }
+    .page-Desktop .content {
+        padding-bottom: 100px
+    }
+    .page-Desktop .outDown {
+        height: 100px;
+        margin-top: -100px
+    }
+    .page-Desktop .platforms .grid-container {
+        padding-top: 20px
+    }
+}
+
+
+@media (max-width: 320px) {
+    #homeContent .intro .bt {
+        width: 100% !important;
+        letter-spacing: 0px !important
+    }
+}
+@media (max-width: 767px) {
+    #mainBTCTA {
+        width: 260px
+    }
+    #homeLand {
+        min-height: 690px !important
+    }
+    #homeLand #videoBG {
+        min-height: 690px !important
+    }
+    #homeContent h1 {
+        font-size: 30px !important;
+        line-height: 28px !important
+    }
+    #homeContent h2 {
+        font-size: 15px !important;
+        line-height: 15px !important
+    }
+    .component-departments .title {
+        text-align: center;
+        font-size: 18px !important;
+        margin-bottom: 20px
+    }
+    .component-departments .title span {
+        display: inline !important;
+        font-size: 18px !important
+    }
+    .ratingBars {
+        margin-left: 0px !important;
+        display: block !important
+    }
+    .component-knowMore {
+        text-align: center
+    }
+    .component-knowMore .title,
+    .component-knowMore .button {
+        float: none;
+        line-height: normal
+    }
+    .component-knowMore .button {
+        margin-top: 20px;
+        line-height: normal
+    }
+    .component-subscribeNews .title {
+        margin-bottom: 20px
+    }
+    .page-FreeBook .selling {
+        text-align: center
+    }
+    .page-FreeBook .selling img {
+        width: 100px !important
+    }
+    .page-FreeBook form {
+        margin-left: 0px !important;
+        margin-top: 80px;
+        padding: 20px;
+        padding-top: 10px
+    }
+    .page-FreeBook .footer * {
+        text-align: center !important
+    }
+    .page-Enterprise .grid-50,
+    .page-Enterprise .tablet-grid-50 {
+        height: auto !important;
+        display: table
+    }
+    .page-Enterprise .center {
+        height: auto !important
+    }
+    .page-Homepage .top {
+        clear: both;
+        margin-top: 60px;
+        text-align: center;
+        padding: 10px 10px;
+        padding-bottom: 60px
+    }
+    .page-Jobs {
+        padding: 40px 10px
+    }
+    .page-Jobs .jobsList button {
+        margin-top: 20px !important
+    }
+    .component-subscribeNews {
+        text-align: center
+    }
+    .component-subscribeNews button {
+        margin-top: 20px
+    }
+    .component-subscribeNews input {
+        margin-bottom: 6px
+    }
+    .social {
+        text-align: center
+    }
+    .copyZone {
+        margin-top: 30px;
+        padding-top: 30px;
+        border-top: solid 1px #444a51
+    }
+    .tweetOfDay .icon-twitter {
+        display: none
+    }
+    .menuDown ul li {
+        display: inline-block !important;
+        padding: 5px !important;
+        width: 40% !important
+    }
+    .expertContent {
+        display: block !important
+    }
+    .expertHeader {
+        text-align: center
+    }
+    .expertHeader .name {
+        margin: 10px 0px !important
+    }
+    .expertHeader .nameRequest {
+        padding-top: 10px !important
+    }
+    .expertHeader .book {
+        border-top: solid 1px #667abb;
+        margin-top: 20px;
+        padding: 20px;
+        text-align: center !important
+    }
+    .expertHeader .links a {
+        display: inline !important
+    }
+    .expertHeader .bt-hh {
+        height: auto !important
+    }
+    .expertHeader .bio {
+        border: none !important;
+        border-top: solid 1px #667abb !important;
+        padding-bottom: 0px !important
+    }
+    .expertHeader .location .icon-pin {
+        margin-right: 3px;
+        font-size: 12px
+    }
+    .expertHeader .location .icon-per-minute {
+        margin-left: 20px;
+        margin-right: 5px;
+        font-size: 12px
+    }
+    .page-HowItWorks .imgHelp {
+        margin: 0px !important;
+        margin-bottom: 30px !important
+    }
+    .page-HowItWorks .intro {
+        padding-top: 20px
+    }
+    .page-HowItWorks .intro .imgHelp {
+        margin-bottom: 50px !important
+    }
+    .page-HowItWorks .weConnect {
+        padding-top: 0px
+    }
+    .page-HowItWorks .review {
+        padding: 50px 0px;
+        padding-bottom: 20px
+    }
+    .sellingPoints .grid-33 {
+        margin-top: 50px
+    }
+    .sellingPoints .line {
+        display: none
+    }
+    .howItWorks .grid-33 {
+        min-height: 0px !important;
+        margin-bottom: 20px
+    }
+    .stats .one,
+    .stats .two,
+    .stats .three {
+        display: block
+    }
+    .stats {
+        border-top: none !important;
+        display: block !important
+    }
+    .stats .one,
+    .stats .two,
+    .stats .three {
+        display: block !important;
+        width: auto !important;
+        text-align: center !important;
+        border-left: none !important;
+        border-right: none !important
+    }
+    .worldMap {
+        display: none
+    }
+    .page-Contact textarea {
+        height: 125px
+    }
+    .page-Contact label[for="hhRound"] {
+        font-size: 13px !important
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+    .topNavigation {
+        line-height: 70px;
+        height: 70px;
+        padding-right: 40px;
+        padding-left: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .component-departments .title {
+        text-align: center;
+        font-size: 18px !important;
+        margin-bottom: 20px
+    }
+    .component-departments .title span {
+        display: inline !important;
+        font-size: 18px !important
+    }
+    .component-knowMore {
+        text-align: center
+    }
+    .component-knowMore .title,
+    .component-knowMore .button {
+        float: none
+    }
+    .component-knowMore .button {
+        margin-top: 10px
+    }
+    .page-FreeBook .selling {
+        text-align: center
+    }
+    .page-FreeBook .selling img {
+        width: 100px !important
+    }
+    .page-FreeBook form {
+        margin-left: 0px !important;
+        margin-top: 80px
+    }
+    .page-FreeBook .footer * {
+        text-align: center !important
+    }
+    .page-Jobs .jobsList button {
+        margin-top: 20px !important
+    }
+    .social {
+        text-align: center
+    }
+    .copyZone {
+        margin-top: 30px;
+        padding-top: 30px;
+        border-top: solid 1px #444a51
+    }
+    .tweetOfDay .icon-twitter {
+        display: none
+    }
+    .menuDown ul li {
+        padding: 0px 10px !important
+    }
+    .expertHeader {
+        text-align: center
+    }
+    .expertHeader .nameRequest {
+        padding-top: 10px !important
+    }
+    .expertHeader .name {
+        margin: 10px 0px !important
+    }
+    .expertHeader .book {
+        border-top: solid 1px #667abb;
+        margin-top: 20px;
+        padding: 20px;
+        text-align: center !important
+    }
+    .expertHeader .links a {
+        display: inline !important
+    }
+    .expertHeader .bt-hh {
+        height: auto !important
+    }
+    .expertHeader .bio {
+        border: none !important;
+        border-top: solid 1px #667abb !important;
+        padding-bottom: 0px !important
+    }
+    .tabs {
+        text-align: center
+    }
+    .expertEvents {
+        margin-top: 40px
+    }
+    .location .icon-pin {
+        margin-right: 3px;
+        font-size: 12px
+    }
+    .location .icon-per-minute {
+        margin-left: 20px;
+        margin-right: 5px;
+        font-size: 12px
+    }
+}
+
+
+@media (max-width: 767px) {
+    .page-takeOver .takeOverMiddle #logoHH {
+        text-align: center !important;
+        display: block !important
+    }
+    .page-takeOver .takeOverMiddle {
+        width: 100% !important;
+        max-width: none
+    }
+}
